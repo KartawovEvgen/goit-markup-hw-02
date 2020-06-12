@@ -14,10 +14,25 @@
 body {
   color: var(--primary-text-color)
   background-color: #ffffff;
+  
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 .list {
   list-style: none;
 }
+
 /* Site nav */
 .site-nav .link {
   color: var(--primary-text-color);
@@ -54,7 +69,9 @@ body {
 
 /* Our team */
 
+
 /* Regular customers */
+
 
 /* Footer */
 .Social-links .link {
@@ -71,3 +88,18 @@ body {
 /* Our media */
 
 /* Button */
+button {
+  font-family: inherit;
+  
+
+}
+.button{
+  color: var(--primary-text-color);
+  background-color: var(--text-color);
+  text-decoration: none;
+}
+.button:hover,
+.button:focus{
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
