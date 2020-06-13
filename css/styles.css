@@ -16,10 +16,12 @@ body {
   background-color: #ffffff;
   
   font-family: Roboto, sans-serif;
+  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  
 }
 
 .logo {
@@ -29,6 +31,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
 }
+
 .list {
   list-style: none;
 }
@@ -36,6 +39,8 @@ body {
 /* Site nav */
 .site-nav .link {
   color: var(--primary-text-color);
+  font-weight: 500;
+  letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -43,31 +48,70 @@ body {
 }
 .auth-nav .link {
   color: var(--text-color);
+  font-weight: 500;
+  letter-spacing: 0.02em;
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
   color: var(--accent-color);
 }
 /* Hero */
+.hero-title{
+  color: var(--primary-white-color);
+  background-color: var(--text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em; 
+  text-transform: uppercase;
+}
 
 /* Section */
 .section-title {
   color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center; 
 }
 
 /* Our advantages */
 .advantages .advantages-title {
   color: var(--primary-text-color);
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  
 }
+
 
 .advantages .text {
   color: var(--text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71; 
 }
 
 /* That we do */
 
+.works{
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
 
 /* Our team */
+.section .name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.section .profession{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+}
 
 
 /* Regular customers */
@@ -83,9 +127,29 @@ body {
 }
 
 
+
 /* Address company and contacts */
+.address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
 
 /* Our media */
+.addto {
+  color: var(--primary-white-color);
+  background-color: var(--primary-text-color);
+  font-weight: 700;
+
+}
+
+.Developedby{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
+}
 
 /* Button */
 button {
@@ -97,9 +161,52 @@ button {
   color: var(--primary-text-color);
   background-color: var(--text-color);
   text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+/* identical to box height, or 162% */
+
+text-align: center;
+letter-spacing: 0.03em;
 }
 .button:hover,
 .button:focus{
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+}
+.button.primary {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+}
+
+
+
+/* Portfolio */
+
+.project{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  
+}
+.category {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  
+
+}
+.description{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  
+}
+a{
+  text-decoration: none;
 }
